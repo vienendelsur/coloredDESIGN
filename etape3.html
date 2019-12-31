@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<!-- @formateur source : https://www.alsacreations.com/tuto/lire/555-design-css-complet-5-etapes.html -->
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Colored Design - &Eacute;tape 1</title>
+    <title>Colored Design - &Eacute;tape 3</title>
+    <style>
+        body {
+            margin: 10px 0;
+            padding: 0;
+            /* text-align center à cause d'Internet Explorer (les anciennes versions d'IE)  */
+            text-align: center;
+
+            font: 0.8em  "Trebuchet MS", Helvetica, sans-serif;
+            /* font-size: 0.8em;
+            font-family: "Trebuchet MS", Helvetica, sans-serif; */
+            background-color: #dea;
+        }
+        
+        #conteneur {
+            /* margin 0 et auto pour centrer le conteneur dans la page ATTENTION a donner une largeur (c'est une marge automatique) */
+            margin: 0 auto;
+            width: 770px; 
+            background-color: #fff;
+            border: 2px solid #ab4;
+            text-align: left;
+        }
+        
+        header h1 {
+            /* hauteur du h1 dans le header  */
+            height: 258px;
+            background: url(img/apple.jpg) no-repeat left bottom;
+            /* background-image: url(img/apple.jpg);
+            background-repeat: no-repeat;
+            background-position: left bottom; */
+        }
+        
+        main h2 {
+            padding-left: 25px;
+            font-size: 1.4em;
+            color: #9b2;
+            background: url(img/little_apple.gif) no-repeat left bottom;
+            border-bottom: 1px solid #9b2;
+        }
+    </style>
 </head>
 <body>
+    <!-- cette division contient l'ensemble de la page on peut parfois l'appeler "wrapper"  "contenu" ou parfois div id="main" etc. -->
     <div id="conteneur">
         <!-- en tête de la page, de body  -->
         <header>
@@ -27,7 +66,7 @@
         </header>
         <!-- contenu principal  -->
         <main>
-            <h2>Un titre /// étape 1</h2>
+            <h2>Un titre /// étape 3</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto modi cum harum nemo, explicabo dolore praesentium fuga eius vitae ratione corrupti repellendus nam doloremque recusandae odit, beatae quia, suscipit odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laudantium culpa ex amet, nulla veniam tempore iste obcaecati assumenda aut dicta facilis, architecto eum officia eos delectus minima laboriosam recusandae!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione enim, nulla delectus debitis incidunt porro molestiae repudiandae sit eos nisi? Quasi laudantium atque iste numquam consequatur! Rerum optio voluptates natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aspernatur rerum excepturi aliquid nostrum neque facilis, odio aliquam, omnis in ad quam accusamus quas possimus, architecto assumenda placeat eius provident.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam ad cum labore culpa iste fugiat porro tenetur placeat. Itaque delectus asperiores dolorum corporis voluptates fugiat, id quod eaque illum!</p>
