@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Colored Design - &Eacute;tape 3</title>
     <style>
+
         body {
             margin: 10px 0;
             padding: 0;
@@ -36,6 +37,54 @@
             /* background-image: url(img/apple.jpg);
             background-repeat: no-repeat;
             background-position: left bottom; */
+        }
+
+ 
+        header h1 a {
+            /* l'image en arrière-plan du h1  */
+            width: 400px;
+            height: 70px;
+            display: block;
+            /* dès l'instant ou on change d'inline en block il est préférable de mettre des tailles largeur et/ou hauteur à l'élément  */
+            background: url(img/title.gif) no-repeat right;
+
+            position: relative;
+            left: 350px;
+            top: 15px;
+            /* pour masquer le texte  */
+
+            text-indent: -5000px;
+        }
+
+        ul#menu {
+            height:35px;
+            margin: 0;
+            padding: 0;
+            background:url(img/bg_menu.gif) repeat-x 0 -25px;
+            list-style-type: none;
+        }
+
+        ul#menu li {
+            float: left;
+            text-align: center;
+        }
+
+        ul#menu li a {
+            width: 130px;
+            display: block;
+            border-right:2px solid #dea;
+
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 25px;
+            color: #fff;
+            letter-spacing: 2px;
+
+        }
+
+        ul#menu li a:hover {
+            background:url(img/bg_menu.gif) repeat-x 0 0;
         }
 
         main {
@@ -97,7 +146,8 @@
             <!-- pour avoir la nav avec la ul et les li etc .  -->
             <!--  nav>ul>li*5>a[title]{Etape n° $}  -->
             <nav>
-                <ul>
+                <!-- on rajoute id="menu" à notre ul qui sert à la navigation -->
+                <ul id="menu">
                     <li><a href="etape1.html" title="Colored Design &Eacute;tape 1">&Eacute;tape n° 1</a></li>
                     <li><a href="etape2.html" title="Colored Design &Eacute;tape 2">&Eacute;tape n° 2</a></li>
                     <li><a href="etape3.html" title="Colored Design &Eacute;tape 3">&Eacute;tape n° 3</a></li>
@@ -108,7 +158,7 @@
         </header>
         <!-- contenu principal  -->
         <main>
-            <h2>Un sous-titre 1  /// étape 3</h2>
+            <h2>Un sous-titre 1  /// étape 4</h2>
             <p>amet consectetur adipisicing elit. Enim laudantium culpa ex amet, nulla veniam tempore iste obcaecati assumenda aut dicta facilis, architecto eum officia eos delectus minima laboriosam recusandae!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione enim, nulla delectus debitis incidunt porro molestiae repudiandae sit eos nisi? Quasi laudantium atque iste numquam consequatur! Rerum optio voluptates natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aspernatur rerum excepturi aliquid nostrum neque facilis, odio aliquam, omnis in ad quam accusamus quas possimus, architecto assumenda placeat eius provident.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsam ad cum labore culpa iste fugiat porro tenetur placeat. <a href="#" title="Lien">Itaque delectus asperiores dolorum corporis voluptates fugiat</a>, id quod eaque illum!</p>
